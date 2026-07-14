@@ -41,7 +41,7 @@ function performDOMOperations() {
     console.log("Alt Attribute: " + image.getAttribute("alt"));
 
     // 8. Change Image
-    image.src = "images\student2.jpg";
+    image.src = "student2.jpg";
 
     // 9. Check Alt Attribute
     console.log("Has Alt Attribute: " + image.hasAttribute("alt"));
